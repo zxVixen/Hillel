@@ -1,0 +1,188 @@
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+justify-content: center;
+}
+
+.nav{
+    padding: 31px 0px 17px 0px;
+}
+.nav-item {
+display: inline-block;
+}
+
+.nav-link{
+  
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+display: block;
+color: black;
+padding: 8px 15px 25px 15px;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.nav-link:hover{
+box-shadow:  0px 3px 0px #46A358;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+
+
+}
+
+.img-wrapper{
+    display: inline-block;
+    margin-right: 229px;
+    margin-left: 0px;
+  
+}
+
+.nav-list{
+    display: inline-block;
+}
+
+
+
+.icon-login-wrapper{
+    display: inline-block;
+}
+ .icon-login-img{
+    display: inline-block;
+ }
+.login-text{  font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;}
+ .login{
+    padding: 8px 17px 7px 17px;
+border-radius: 6px;
+background-color: #46A358;
+color: white;
+
+float: right;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  
+ }
+
+ 
+
+ .baner-wrapper {
+   background-color:  rgba(245, 245, 245, 0.5) ;
+  
+    display: flex;
+    align-items: center; /* вертикальне вирівнювання */
+    gap: 20px; /* відступ між текстом і картинкою */
+   
+  
+  
+ }
+
+ .baner{
+   max-height: 450px
+ }
+ .baner-wrapper-text{
+    padding: 68px 0px 44px 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+  
+
+ }
+p{   
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 10%;text-transform: uppercase;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+
+}
+
+.baner-title {
+    
+font-weight: 900px;
+font-size: 70px;
+line-height: 70px;
+letter-spacing: 0%;
+text-transform: uppercase;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.hh{
+    color: #46A358;
+    font-weight: 900px;
+font-size: 70px;
+line-height: 70px;
+letter-spacing: 0%;
+text-transform: uppercase;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.baner-span{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+ color:  #727272;
+
+
+
+}
+.baner-link-text {
+    padding: 11px 27px 9px 26px;
+  background-color:  #46A358;
+  border: 2px solid #46A358;
+    text-decoration: none;
+    color: white;
+    margin:  0px 0px 94px 67px; ;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ border-radius: 6px;
+
+  font-style: normal;
+
+}
+.baner-wrapper-blok{
+    display: inline-block; 
+}
+
+.baner-img{
+    display: inline-block;
+}
+ 
+
