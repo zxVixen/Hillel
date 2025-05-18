@@ -1,34 +1,49 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('CeraPro-Regular.eot');
+    src: local('Cera Pro Regular'), local('CeraPro-Regular'),
+        url('CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CeraPro-Regular.woff2') format('woff2'),
+        url('CeraPro-Regular.woff') format('woff'),
+        url('CeraPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .container {
 max-width: 1200px;
 margin: 0 auto;
 justify-content: center;
+
 }
 
 .nav{
     padding: 31px 0px 17px 0px;
 }
+
 .nav-item {
 display: inline-block;
+
 }
 
 .nav-link{
-  
-font-weight: 400;
+ 
+font-weight: 400px;
 font-size: 16px;
 line-height: 100%;
 letter-spacing: 0%;
 display: block;
 color: black;
 padding: 8px 15px 25px 15px;
-font-family: "Inter", sans-serif;
+font-family: 'Cera Pro';
   font-optical-sizing: auto;
 
   font-style: normal;
 }
+
 .nav-link:hover{
 box-shadow:  0px 3px 0px #46A358;
-font-family: "Inter", sans-serif;
+font-family: 'Cera Pro', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 font-weight: 700;
@@ -52,23 +67,22 @@ letter-spacing: 0%;
     display: inline-block;
 }
 
-
-
 .icon-login-wrapper{
     display: inline-block;
 }
  .icon-login-img{
     display: inline-block;
  }
-.login-text{  font-family: "Inter", sans-serif;
+
+.login-text{  
+  font-family: 'Cera Pro', sans-serif;
     font-optical-sizing: auto;
-  
     font-style: normal;
-  
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;}
+
  .login{
     padding: 8px 17px 7px 17px;
 border-radius: 6px;
@@ -76,7 +90,7 @@ background-color: #46A358;
 color: white;
 
 float: right;
-    font-family: "Inter", sans-serif;
+    font-family: 'Cera Pro', sans-serif;
   font-optical-sizing: auto;
 
   font-style: normal;
@@ -87,8 +101,6 @@ float: right;
   letter-spacing: 0%;
   
  }
-
- 
 
  .baner-wrapper {
    background-color:  rgba(245, 245, 245, 0.5) ;
@@ -101,24 +113,24 @@ float: right;
   
  }
 
- .baner{
-   max-height: 450px
- }
+
+
  .baner-wrapper-text{
     padding: 68px 0px 44px 40px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Cera Pro', sans-serif;
     font-optical-sizing: auto;
   
     font-style: normal;
   
 
  }
-p{   
+
+.welcome{   
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 10%;text-transform: uppercase;
-font-family: "Inter", sans-serif;
+font-family: 'Cera Pro', sans-serif;
   font-optical-sizing: auto;
 
   font-style: normal;
@@ -132,10 +144,11 @@ font-size: 70px;
 line-height: 70px;
 letter-spacing: 0%;
 text-transform: uppercase;
-font-family: "Inter", sans-serif;
+font-family: 'Cera Pro', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 .hh{
     color: #46A358;
     font-weight: 900px;
@@ -143,7 +156,7 @@ font-size: 70px;
 line-height: 70px;
 letter-spacing: 0%;
 text-transform: uppercase;
-font-family: "Inter", sans-serif;
+font-family: 'Cera Pro', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -153,7 +166,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0%;
-font-family: "Inter", sans-serif;
+font-family: 'Cera Pro', sans-serif;
   font-optical-sizing: auto;
 
   font-style: normal;
@@ -162,6 +175,7 @@ font-family: "Inter", sans-serif;
 
 
 }
+
 .baner-link-text {
     padding: 11px 27px 9px 26px;
   background-color:  #46A358;
@@ -170,13 +184,14 @@ font-family: "Inter", sans-serif;
     color: white;
     margin:  0px 0px 94px 67px; ;
     text-transform: uppercase;
-    font-family: "Inter", sans-serif;
+   font-family: 'Cera Pro', sans-serif;
   font-optical-sizing: auto;
  border-radius: 6px;
 
   font-style: normal;
 
 }
+
 .baner-wrapper-blok{
     display: inline-block; 
 }
@@ -184,5 +199,212 @@ font-family: "Inter", sans-serif;
 .baner-img{
     display: inline-block;
 }
- 
 
+.container-m{
+display: flex;       /* Встановлюємо flex-контейнер */
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+
+.aside{
+
+  width: 310px;
+  margin-right: 50px;
+ background-color: #FBFBFB;
+ padding-top: 14px;
+ padding-left: 18px;
+}
+
+.categories{
+  height: 774px;
+}
+
+.categories-list-name{
+margin-right: 10px;
+margin-bottom: 367px;
+  font-family: Cera Pro;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0%;
+} 
+.categories-list{
+  margin-top: 12px;
+  margin-left: 12px;
+  
+}
+
+.categories-item{
+  margin-bottom: 10px;
+}
+
+.categories-link{
+color: black;
+font-family: Cera Pro;
+font-weight: 400;
+font-size: 15px;
+line-height: 40px;
+letter-spacing: 0%;
+
+}
+
+.categories-link:hover{
+  font-family: Cera Pro;
+font-weight: 700;
+font-size: 15px;
+line-height: 40px;
+letter-spacing: 0%;
+color:  #46A358;
+}
+
+.main {
+  flex-grow: 1; /* Займає решту простору */
+
+}
+
+.properties{
+  display: flex;
+  justify-content: space-between; /* Розподіляє елементи по краях */
+  align-items: center;   
+     
+}
+
+.buttons{
+ display: flex;                    /* Включаємо flex-контейнер */
+  justify-content: space-between; 
+  gap: 37px;        
+}
+
+.button-name-properties{
+  font-family: Cera Pro;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 0%;  
+background: none;
+}
+
+.button-name-properties:hover{
+  font-family: Cera Pro;
+font-weight: 700;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 0%;
+box-shadow:  0px 2px 0px #46A358;
+color: #46A358;
+}
+
+.label-name{
+  font-family: Cera Pro;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 0%;
+
+}
+
+.products{
+  margin-top: 31px;
+}
+.products-list{
+width: 840px;
+Height: 1190px;
+  display: flex;           /* Включаємо flex для списку */
+  flex-wrap: wrap;         /* Дозволяємо перенос елементів на новий рядок */
+  justify-content: space-between; 
+   align-content: space-between;/* Рівномірно розподіляємо елементи по ширині */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+.products-item {
+  flex: 0 1 258px;        /* Не росте, може стискатись, базова ширина 258px */
+  max-width: 258px;       /* Максимальна ширина */
+  max-height: 350px;      /* Максимальна висота */
+  box-sizing: border-box; /* Враховує padding і border у розміри */
+  margin-bottom: 20px;    /* Відступ знизу між рядками */
+  overflow: hidden;     
+  row-gap: 70px;  
+   padding: 0;
+  margin: 0;/* При потребі обрізає вміст, що виходить за межі */
+}
+
+.img-products{
+ width: 258;
+ height: 300;
+ background-color: #FBFBFB;
+ justify-content: center;
+}
+
+
+
+.product-name{
+  font-family: Cera Pro;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0%;
+margin-top: 12px;
+}
+
+.price{
+  font-family: Cera Pro;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0%;
+color: #46A358;
+margin-top: 6px;
+}
+
+.pages{
+  margin-top: 90px;
+width: 215px;
+height: 35px;
+margin-left: auto;
+}
+
+.pages-list{
+    display: flex;           /* Включаємо flex для списку */
+  flex-wrap: wrap;         /* Дозволяємо перенос елементів на новий рядок */
+  justify-content: space-between; /* Рівномірно розподіляємо елементи по ширині */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pages-item{
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+ height: 35px;
+ width: 35px;
+ display: flex;
+  justify-content: center; /* Горизонтальне центрування */
+  align-items: center; 
+  gap: 10px;
+}
+
+.pages-item:hover{
+background-color: #46A358;
+}
+
+.pages-link{
+  color: black;
+  font-family: Cera Pro;
+font-weight: 300;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0%;
+
+}
+
+.pages-item:hover .pages-link{
+  font-family: Cera Pro;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
